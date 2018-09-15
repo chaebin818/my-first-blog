@@ -25,7 +25,6 @@ SECRET_KEY = 'm#=lo5i9813am#5b#k8wgiaw(nh#dk_j)-x)49r2#i4mxwc4kp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -121,4 +120,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-ALLLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLLOWED_HOSTS = ['127.0.0.1', 'chaebin.pythonanywhere.com']
